@@ -1,0 +1,10 @@
+Tue Jun  8 08:41:46 2021: Server was asked to start on port: '45063'
+Tue Jun  8 08:41:46 2021: Server is using token UUID: '8cf30f8d-5513-4181-853d-ead182d79282'
+Tue Jun  8 08:41:46 2021: Attempting to start server on port '45063'
+Tue Jun  8 08:41:46 2021: XRC main fifo: created main fifo '/tmp/xrcmain8cf30f8d-5513-4181-853d-ead182d79282', fd read = 14
+Tue Jun  8 08:41:46 2021: Running Rule Check Server
+Tue Jun  8 08:41:46 2021: Version 1.6.1
+Tue Jun  8 08:41:46 2021: Rule Check Server: Accepted socket connection from client
+Tue Jun  8 08:41:46 2021: EXCHANGE_TOKEN received, server token: 8cf30f8d-5513-4181-853d-ead182d79282, passed token: 8cf30f8d-5513-4181-853d-ead182d79282
+Tue Jun  8 08:41:46 2021: SESSION_MGR: creating session with session uuid: 'c39985ff-feca-4cb7-8550-bc9ff74bb247' and name 'generate_dag'
+Tue Jun  8 08:42:38 2021: SESSION_MGR: closing session for UUID 'c39985ff-feca-4cb7-8550-bc9ff74bb247' with name 'generate_dag'

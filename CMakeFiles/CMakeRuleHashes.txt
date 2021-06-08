@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+c230c4ba5b907d924caaea8e210e02a4 CMakeFiles/ethminer-buildinfo-git
+b813cf62bd6e6b87ad8806f5b79e962a ethminer/buildinfo.c
+929ad850cbff4d9981ff338bc36fda27 libethash-xcl/kernel/CMakeFiles/xilinx-kernel

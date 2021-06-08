@@ -1,0 +1,2 @@
+/usr/bin/ar qc libethash-xcl.a  CMakeFiles/ethash-xcl.dir/XCLMiner.cpp.o CMakeFiles/ethash-xcl.dir/xcl/xcl2.cpp.o
+/usr/bin/ranlib libethash-xcl.a
