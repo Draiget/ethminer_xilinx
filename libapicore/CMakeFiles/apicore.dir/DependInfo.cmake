@@ -13,6 +13,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "API_CORE"
   "DEV_BUILD"
   "ETH_ETHASHXCL"
+  "VITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"
+  "__USE_XOPEN2K8=1"
   )
 
 # The include file search paths:

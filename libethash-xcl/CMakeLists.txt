@@ -14,6 +14,8 @@ set(SOURCES
 
 set(XILINX_XRT /opt/xilinx/xrt)
 
+# -std=c++0x -DVITIS_PLATFORM=$(VITIS_PLATFORM) -D__USE_XOPEN2K8 -I/opt/xilinx/xrt/include/ -I/tools/Xilinx/Vivado/2020.2/include/ -O0 -g -Wall -c -fmessage-length=0
+
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 include_directories(..)
 include_directories(${XILINX_XRT}/include)

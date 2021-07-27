@@ -344,15 +344,109 @@ bool XCLMiner::initEpoch_internal() {
     xcllog << "Generating split DAG + Light (total): "
           << dev::getFormattedMemory((double)RequiredMemory);
 
-    return false;
+    try {
+        auto devices = vector<cl::Device>(&m_device, &m_device + 1);
+
+        // create context
+        m_context.clear();
+        m_context.emplace_back(devices);
+        m_queue.clear();
+        m_queue.emplace_back(cl::CommandQueue(
+                m_context[0],
+                m_device,
+                CL_QUEUE_PROFILING_ENABLE | CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE));
+
+        m_dagItems = m_epochContext.dagNumItems;
+
+        // create buffer for dag
+        try
+        {
+            xcllog << "Creating DAG buffer, size: "
+                  << dev::getFormattedMemory((double)m_epochContext.dagSize)
+                  << ", free: "
+                  << dev::getFormattedMemory(
+                          (double)(m_deviceDescriptor.totalMemory - RequiredMemory));
+            m_dag.clear();
+
+            if (m_epochContext.dagNumItems & 1)
+            {
+                m_dag.emplace_back(m_context[0], CL_MEM_READ_ONLY, m_epochContext.dagSize / 2 + 64);
+                m_dag.emplace_back(m_context[0], CL_MEM_READ_ONLY, m_epochContext.dagSize / 2 - 64);
+            }
+            else
+            {
+                m_dag.emplace_back(
+                        cl::Buffer(m_context[0], CL_MEM_READ_ONLY, (m_epochContext.dagSize) / 2));
+                m_dag.emplace_back(
+                        cl::Buffer(m_context[0], CL_MEM_READ_ONLY, (m_epochContext.dagSize) / 2));
+            }
+
+            xcllog << "Creating light cache buffer, size: "
+                  << dev::getFormattedMemory((double)m_epochContext.lightSize);
+
+            m_light.clear();
+            bool light_on_host = false;
+            try
+            {
+                m_light.emplace_back(m_context[0], CL_MEM_READ_ONLY, m_epochContext.lightSize);
+            }
+            catch (cl::Error const& err)
+            {
+                if ((err.err() == CL_OUT_OF_RESOURCES) || (err.err() == CL_OUT_OF_HOST_MEMORY))
+                {
+                    // Ok, no room for light cache on GPU. Try allocating on host
+                    clog(WarnChannel) << "No room on GPU, allocating light cache on host";
+                    clog(WarnChannel) << "Generating DAG will take minutes instead of seconds";
+                    light_on_host = true;
+                }
+                else
+                    throw;
+            }
+
+            if (light_on_host)
+            {
+                m_light.emplace_back(m_context[0], CL_MEM_READ_ONLY | CL_MEM_ALLOC_HOST_PTR,
+                                     m_epochContext.lightSize);
+                xcllog << "WARNING: Generating DAG will take minutes, not seconds";
+            }
+            xcllog << "Loading kernels";
+
+            // Let's load our Xilinx kernel container
+            cl::Context context(m_device);
+            cl::CommandQueue q(context, m_device, CL_QUEUE_PROFILING_ENABLE | CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE);
+
+            std::string xclbin_path = "/home/draiget/workspace-test/ethminer_system/Emulation-SW/binary_container_1.xclbin";
+            cl::Program::Binaries xclBins = xcl::import_binary_file(xclbin_path);
+            devices.resize(1);
+            cl::Program program(context, devices, xclBins);
+
+            m_dagKernel = cl::Kernel(program, "generate_dag");
+
+            //m_queue[0].enqueueWriteBuffer(
+            //        m_light[0], CL_TRUE, 0, m_epochContext.lightSize, m_epochContext.lightCache);
+        }
+        catch (cl::Error const& err)
+        {
+            cwarn << ethCLErrorHelper("Creating DAG buffer failed", err);
+            pause(MinerPauseEnum::PauseDueToInitEpochError);
+            return true;
+        }
+    }
+    catch (cl::Error const& err)
+    {
+        xcllog << ethCLErrorHelper("OpenCL init failed", err);
+        pause(MinerPauseEnum::PauseDueToInitEpochError);
+        return false;
+    }
+    return true;
 }
 
 void XCLMiner::kick_miner() {
     // Memory for abort Cannot be static because crashes on macOS.
     const uint32_t one = 1;
     if (!m_settings.noExit && !m_abortqueue.empty()) {
-        m_abortqueue[0].enqueueWriteBuffer(
-                m_searchBuffer[0], CL_TRUE, offsetof(SearchResults, abort), sizeof(one), &one);
+        //m_abortqueue[0].enqueueWriteBuffer(
+        //        m_searchBuffer[0], CL_TRUE, offsetof(SearchResults, abort), sizeof(one), &one);
     }
 
     m_new_work_signal.notify_one();

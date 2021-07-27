@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/ethminer_xilinx/ethminer/buildinfo.c
+buildinfo.h
+/ethminer_xilinx/ethminer/buildinfo.h
+
+/ethminer_xilinx/ethminer/buildinfo.h
+

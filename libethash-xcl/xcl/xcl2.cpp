@@ -60,6 +60,7 @@ namespace xcl {
     std::vector<cl::Device> get_xil_devices() {
         return get_devices("Xilinx");
     }
+
     cl::Program::Binaries import_binary_file(std::string xclbin_file_name) {
         std::cout << "INFO: Importing " << xclbin_file_name << std::endl;
 
@@ -70,9 +71,9 @@ namespace xcl {
         // Loading XCL Bin into char buffer
         std::cout << "Loading: '" << xclbin_file_name.c_str() << "'\n";
         std::ifstream bin_file(xclbin_file_name.c_str(), std::ifstream::binary);
-        bin_file.seekg(0, bin_file.end);
+        bin_file.seekg(0, std::ifstream::end);
         unsigned nb = bin_file.tellg();
-        bin_file.seekg(0, bin_file.beg);
+        bin_file.seekg(0, std::ifstream::beg);
         char* buf = new char[nb];
         bin_file.read(buf, nb);
 

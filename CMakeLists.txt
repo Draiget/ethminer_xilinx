@@ -20,6 +20,8 @@ HunterGate(
     LOCAL
 )
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+
 #
 # rm -f /ethminer_xilinx/_3rdParty/Hunter/toolchain/toolchain.info.NOLF
 # root@hp-srv:/ethminer_xilinx/_3rdParty/Hunter/toolchain# /usr/bin/cmake "-DTOOLCHAIN_INFO_FILE=/ethminer_xilinx/_3rdParty/Hunter/toolchain/toolchain.info.NOLF" "-DCMAKE_TOOLCHAIN_FILE=/ethminer_xilinx/cmake/cable/toolchains/cxx11.cmake" "-DHUNTER_SELF=/root/.hunter/_Base/Download/Hunter/0.23.304/cae9026/Unpacked" "-GUnix Makefiles" "-H/ethminer_xilinx/_3rdParty/Hunter/toolchain" "-B/ethminer_xilinx/_3rdParty/Hunter/toolchain/_builds" "-DCMAKE_MAKE_PROGRAM=/usr/bin/gmake" "-DCMAKE_RELEASE_POSTFIX="
@@ -117,6 +119,8 @@ add_subdirectory(libpoolprotocols)
 if (ETHASHXCL)
     add_subdirectory(libethash-xcl)
     add_subdirectory(libethash-xcl/kernel)
+    add_definitions(-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3)
+    add_definitions(-D__USE_XOPEN2K8=1)
 endif ()
 if (ETHASHCL)
     add_subdirectory(libethash-cl)

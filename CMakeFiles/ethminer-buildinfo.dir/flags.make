@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -g   -ffunction-sections -fdata-sections
 
-C_DEFINES = -DAPI_CORE -DDEV_BUILD -DETH_ETHASHXCL
+C_DEFINES = -DAPI_CORE -DDEV_BUILD -DETH_ETHASHXCL -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8=1
 
 C_INCLUDES = -I/ethminer_xilinx 
 

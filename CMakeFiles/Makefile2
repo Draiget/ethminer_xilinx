@@ -242,7 +242,7 @@ libpoolprotocols/clean: libpoolprotocols/CMakeFiles/poolprotocols.dir/clean
 CMakeFiles/ethminer-buildinfo.dir/all: CMakeFiles/ethminer-buildinfo-git.dir/all
 	$(MAKE) -f CMakeFiles/ethminer-buildinfo.dir/build.make CMakeFiles/ethminer-buildinfo.dir/depend
 	$(MAKE) -f CMakeFiles/ethminer-buildinfo.dir/build.make CMakeFiles/ethminer-buildinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=17,18,19 "Built target ethminer-buildinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=18,19,20 "Built target ethminer-buildinfo"
 .PHONY : CMakeFiles/ethminer-buildinfo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -351,7 +351,7 @@ libethcore/CMakeFiles/ethcore.dir/clean:
 libhwmon/CMakeFiles/hwmon.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 	$(MAKE) -f libhwmon/CMakeFiles/hwmon.dir/build.make libhwmon/CMakeFiles/hwmon.dir/depend
 	$(MAKE) -f libhwmon/CMakeFiles/hwmon.dir/build.make libhwmon/CMakeFiles/hwmon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=20,21,22,23,24 "Built target hwmon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=21,22,23,24,25 "Built target hwmon"
 .PHONY : libhwmon/CMakeFiles/hwmon.dir/all
 
 # Build rule for subdir invocation for target.
@@ -379,7 +379,7 @@ libpoolprotocols/CMakeFiles/poolprotocols.dir/all: CMakeFiles/ethminer-buildinfo
 libpoolprotocols/CMakeFiles/poolprotocols.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 	$(MAKE) -f libpoolprotocols/CMakeFiles/poolprotocols.dir/build.make libpoolprotocols/CMakeFiles/poolprotocols.dir/depend
 	$(MAKE) -f libpoolprotocols/CMakeFiles/poolprotocols.dir/build.make libpoolprotocols/CMakeFiles/poolprotocols.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=25,26,27,28,29,30 "Built target poolprotocols"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=26,27,28,29,30,31 "Built target poolprotocols"
 .PHONY : libpoolprotocols/CMakeFiles/poolprotocols.dir/all
 
 # Build rule for subdir invocation for target.
@@ -498,12 +498,12 @@ ethminer/CMakeFiles/ethminer.dir/all: libethash-xcl/CMakeFiles/ethash-xcl.dir/al
 ethminer/CMakeFiles/ethminer.dir/all: libapicore/CMakeFiles/apicore.dir/all
 	$(MAKE) -f ethminer/CMakeFiles/ethminer.dir/build.make ethminer/CMakeFiles/ethminer.dir/depend
 	$(MAKE) -f ethminer/CMakeFiles/ethminer.dir/build.make ethminer/CMakeFiles/ethminer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=15,16 "Built target ethminer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/ethminer_xilinx/CMakeFiles --progress-num=15,16,17 "Built target ethminer"
 .PHONY : ethminer/CMakeFiles/ethminer.dir/all
 
 # Build rule for subdir invocation for target.
 ethminer/CMakeFiles/ethminer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /ethminer_xilinx/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /ethminer_xilinx/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 ethminer/CMakeFiles/ethminer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /ethminer_xilinx/CMakeFiles 0
 .PHONY : ethminer/CMakeFiles/ethminer.dir/rule
