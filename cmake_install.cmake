@@ -44,7 +44,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/ethminer_xilinx/libhwmon/cmake_install.cmake")
   include("/ethminer_xilinx/libpoolprotocols/cmake_install.cmake")
   include("/ethminer_xilinx/libethash-xcl/cmake_install.cmake")
-  include("/ethminer_xilinx/libethash-xcl/kernel/cmake_install.cmake")
   include("/ethminer_xilinx/libapicore/cmake_install.cmake")
   include("/ethminer_xilinx/ethminer/cmake_install.cmake")
 

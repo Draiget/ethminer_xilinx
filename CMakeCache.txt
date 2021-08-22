@@ -393,6 +393,9 @@ apicore_LIB_DEPENDS:STATIC=general;ethcore;general;devcore;general;ethminer-buil
 devcore_LIB_DEPENDS:STATIC=general;Boost::system;
 
 //Dependencies for the target
+ethash-xcl-kernel_LIB_DEPENDS:STATIC=general;ethcore;general;ethash::ethash;general;Boost::filesystem;general;Boost::thread;general;/opt/xilinx/xrt/lib/libxilinxopencl.so;general;/opt/xilinx/xrt/lib/libxrt_core.so;general;/opt/xilinx/xrt/lib/libxrt_coreutil.so;general;/opt/xilinx/xrt/lib/libxrt++.so;
+
+//Dependencies for the target
 ethash-xcl_LIB_DEPENDS:STATIC=general;ethcore;general;ethash::ethash;general;Boost::filesystem;general;Boost::thread;general;/opt/xilinx/xrt/lib/libxilinxopencl.so;general;/opt/xilinx/xrt/lib/libxrt_core.so;general;/opt/xilinx/xrt/lib/libxrt_coreutil.so;general;/opt/xilinx/xrt/lib/libxrt++.so;
 
 //The directory containing a CMake configuration file for ethash.

@@ -355,11 +355,51 @@
 					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="xilinx-kernel">
+			<Target title="ethash-xcl-kernel">
+				<Option output="/ethminer_xilinx/libethash-xcl/kernel/libethash-xcl-kernel.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/ethminer_xilinx/libethash-xcl/kernel"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DAPI_CORE"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl/.."/>
+					<Add directory="/opt/xilinx/xrt/include"/>
+					<Add directory="/tools/Xilinx/Vivado/2020.2/include"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl/kernel"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl/kernel/.."/>
+					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 xilinx-kernel"/>
+					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 ethash-xcl-kernel"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ethash-xcl-kernel/fast">
+				<Option output="/ethminer_xilinx/libethash-xcl/kernel/libethash-xcl-kernel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/ethminer_xilinx/libethash-xcl/kernel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DAPI_CORE"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl/.."/>
+					<Add directory="/opt/xilinx/xrt/include"/>
+					<Add directory="/tools/Xilinx/Vivado/2020.2/include"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl/kernel"/>
+					<Add directory="/ethminer_xilinx/libethash-xcl/kernel/.."/>
+					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 ethash-xcl-kernel/fast"/>
 					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
@@ -525,6 +565,18 @@
 		</Unit>
 		<Unit filename="/ethminer_xilinx/libethash-xcl/XCLMiner.h">
 			<Option target="ethash-xcl"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/dag_test.cpp">
+			<Option target="ethash-xcl"/>
+			<Option target="ethash-xcl-kernel"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel.cpp">
+			<Option target="ethash-xcl"/>
+			<Option target="ethash-xcl-kernel"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel.hpp">
+			<Option target="ethash-xcl"/>
+			<Option target="ethash-xcl-kernel"/>
 		</Unit>
 		<Unit filename="/ethminer_xilinx/libethash-xcl/xcl/xcl2.cpp">
 			<Option target="ethash-xcl"/>

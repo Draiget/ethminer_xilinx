@@ -25,6 +25,10 @@ namespace dev {
 
 #define xcllog clog(XCLChannel)
 
+#define XILINX_MEMORY_PER_HBM_BANK_MB 256
+#define XILINX_MEMORY_BANKS_ALLOWED 24
+#define ETHASH_NODE_WORDS (64 / 4)
+
 /**
  * Returns the name of a numerical cl_int error
  * Takes constants from CL/cl.h and returns them in a readable format
@@ -246,7 +250,7 @@ void dev::eth::XCLMiner::enumDevices(map<string, DeviceDescriptor> &_DevicesColl
             continue;
         }
 
-        xclDeviceUsage  usage_info{};
+        xclDeviceUsage usage_info{};
         if (xclGetUsageInfo(device_handle, &usage_info) == 0){
             ostringstream s;
             s << "XRT_Device, memSize=" << usage_info.memSize << ", "
@@ -344,6 +348,25 @@ bool XCLMiner::initEpoch_internal() {
     xcllog << "Generating split DAG + Light (total): "
           << dev::getFormattedMemory((double)RequiredMemory);
 
+
+    //std::ofstream dag_stream ("/root/dag_data.bin", std::ios::out | std::fstream::binary);
+    //dag_stream.write((char*)&m_epochContext.lightNumItems, sizeof(m_epochContext.lightNumItems));
+//
+    //for (auto i = 0; i < m_epochContext.lightNumItems; i++){
+    //    dag_stream.write((char*)&m_epochContext.lightCache[i].bytes[0], sizeof(m_epochContext.lightCache[i].bytes));
+    //}
+//
+    //dag_stream.close();
+//
+    //xcllog << "m_epochContext.dagNumItems: " << m_epochContext.dagNumItems;
+    //xcllog << "m_epochContext.lightNumItems: " << m_epochContext.lightNumItems;
+    //xcllog << "m_epochContext.epochNumber: " << m_epochContext.epochNumber;
+    //xcllog << "m_epochContext.lightSize: " << m_epochContext.lightSize;
+    //xcllog << "m_epochContext.dagSize: " << m_epochContext.dagSize;
+    //xcllog << "m_settings.globalWorkSize: " << m_settings.globalWorkSize;
+    //xcllog << "m_settings.localWorkSize: " << m_settings.localWorkSize;
+    //xcllog << "m_settings.globalWorkSizeMultiplier: " << m_settings.globalWorkSizeMultiplier;
+
     try {
         auto devices = vector<cl::Device>(&m_device, &m_device + 1);
 
@@ -358,6 +381,8 @@ bool XCLMiner::initEpoch_internal() {
 
         m_dagItems = m_epochContext.dagNumItems;
 
+        const auto hbm_size_bits = 1024 * 1024 * 256;
+
         // create buffer for dag
         try
         {
@@ -366,19 +391,12 @@ bool XCLMiner::initEpoch_internal() {
                   << ", free: "
                   << dev::getFormattedMemory(
                           (double)(m_deviceDescriptor.totalMemory - RequiredMemory));
-            m_dag.clear();
 
-            if (m_epochContext.dagNumItems & 1)
-            {
-                m_dag.emplace_back(m_context[0], CL_MEM_READ_ONLY, m_epochContext.dagSize / 2 + 64);
-                m_dag.emplace_back(m_context[0], CL_MEM_READ_ONLY, m_epochContext.dagSize / 2 - 64);
-            }
-            else
-            {
-                m_dag.emplace_back(
-                        cl::Buffer(m_context[0], CL_MEM_READ_ONLY, (m_epochContext.dagSize) / 2));
-                m_dag.emplace_back(
-                        cl::Buffer(m_context[0], CL_MEM_READ_ONLY, (m_epochContext.dagSize) / 2));
+            m_dag.clear();
+            // m_dag.resize(dag_hbm_elements_full + (dag_hbm_elements_extra > 0 ? 1 : 0));
+            for (auto i = 0; i < XILINX_MEMORY_BANKS_ALLOWED; ++i){
+                m_dag.push_back(cl::Buffer(m_context[0], CL_MEM_READ_WRITE, (size_t)hbm_size_bits, nullptr));
+                m_generateDagBuffer.emplace_back(m_dag[i]);
             }
 
             xcllog << "Creating light cache buffer, size: "
@@ -388,7 +406,7 @@ bool XCLMiner::initEpoch_internal() {
             bool light_on_host = false;
             try
             {
-                m_light.emplace_back(m_context[0], CL_MEM_READ_ONLY, m_epochContext.lightSize);
+                m_light.emplace_back(m_context[0], CL_MEM_READ_ONLY, (size_t)m_epochContext.lightSize, nullptr);
             }
             catch (cl::Error const& err)
             {
@@ -400,30 +418,21 @@ bool XCLMiner::initEpoch_internal() {
                     light_on_host = true;
                 }
                 else
+                {
                     throw;
+                }
             }
 
             if (light_on_host)
             {
-                m_light.emplace_back(m_context[0], CL_MEM_READ_ONLY | CL_MEM_ALLOC_HOST_PTR,
-                                     m_epochContext.lightSize);
+                m_light.emplace_back(
+                        m_context[0],
+                        CL_MEM_READ_ONLY | CL_MEM_ALLOC_HOST_PTR,
+                        (size_t)m_epochContext.lightSize,
+                        nullptr);
+
                 xcllog << "WARNING: Generating DAG will take minutes, not seconds";
             }
-            xcllog << "Loading kernels";
-
-            // Let's load our Xilinx kernel container
-            cl::Context context(m_device);
-            cl::CommandQueue q(context, m_device, CL_QUEUE_PROFILING_ENABLE | CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE);
-
-            std::string xclbin_path = "/home/draiget/workspace-test/ethminer_system/Emulation-SW/binary_container_1.xclbin";
-            cl::Program::Binaries xclBins = xcl::import_binary_file(xclbin_path);
-            devices.resize(1);
-            cl::Program program(context, devices, xclBins);
-
-            m_dagKernel = cl::Kernel(program, "generate_dag");
-
-            //m_queue[0].enqueueWriteBuffer(
-            //        m_light[0], CL_TRUE, 0, m_epochContext.lightSize, m_epochContext.lightCache);
         }
         catch (cl::Error const& err)
         {
@@ -431,6 +440,61 @@ bool XCLMiner::initEpoch_internal() {
             pause(MinerPauseEnum::PauseDueToInitEpochError);
             return true;
         }
+
+        auto const max_n = (uint32_t)(m_epochContext.dagSize / ETHASH_NODE_WORDS * 4);
+        xcllog << "Loading kernels";
+
+        // Let's load our Xilinx kernel container
+        std::string xclbin_path =
+                "/home/draiget/workspace-test/ethminer_system_hw_link/Hardware/binary_container_1.xclbin";
+
+        cl::Program::Binaries xclBins = xcl::import_binary_file(xclbin_path);
+        devices.resize(1);
+        cl::Program program(m_context[0], devices, xclBins);
+
+        m_dagKernel = cl::Kernel(program, "generate_dag");
+
+        for (auto i = 0; i < XILINX_MEMORY_BANKS_ALLOWED; ++i){
+            m_dagKernel.setArg(i, m_dag[i]);
+        }
+
+        m_dagKernel.setArg(XILINX_MEMORY_BANKS_ALLOWED + 0, (uint64_t)m_epochContext.dagSize); // (uint64_t)m_epochContext.dagSize
+        m_dagKernel.setArg(XILINX_MEMORY_BANKS_ALLOWED + 1, m_light[0]);
+        m_dagKernel.setArg(XILINX_MEMORY_BANKS_ALLOWED + 2, (unsigned int)m_epochContext.lightSize);
+
+        for (auto i = 0; i < XILINX_MEMORY_BANKS_ALLOWED; ++i){
+            m_dagRawBuffers.emplace_back(
+                (void *)m_queue[0].enqueueMapBuffer(
+                    m_dag[i],
+                    CL_TRUE,
+                    CL_MEM_READ_WRITE,
+                    0,
+                    hbm_size_bits));
+        }
+
+        m_queue[0].enqueueWriteBuffer(
+                m_light[0],
+                CL_TRUE,
+                0,
+                m_epochContext.lightSize,
+                m_epochContext.lightCache);
+
+        cl::Event event_sp;
+
+        m_generateDagBuffer.emplace_back(m_light[0]);
+        m_queue[0].enqueueMigrateMemObjects(m_generateDagBuffer, 0, nullptr, &event_sp);
+        clWaitForEvents(1, (const cl_event *)&event_sp);
+
+        xcllog << "Running generate_dag kernel ...";
+        m_queue[0].enqueueTask(m_dagKernel, nullptr, &event_sp);
+
+        clWaitForEvents(1, (const cl_event *)&event_sp);
+        m_queue[0].finish();
+
+        auto dagTime = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - startInit);
+        xcllog << dev::getFormattedMemory((double)m_epochContext.dagSize)
+               << " of DAG data generated in "
+               << dagTime.count() << " ms.";
     }
     catch (cl::Error const& err)
     {

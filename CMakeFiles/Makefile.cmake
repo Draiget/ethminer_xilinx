@@ -202,7 +202,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "libhwmon/CMakeFiles/hwmon.dir/DependInfo.cmake"
   "libpoolprotocols/CMakeFiles/poolprotocols.dir/DependInfo.cmake"
   "libethash-xcl/CMakeFiles/ethash-xcl.dir/DependInfo.cmake"
-  "libethash-xcl/kernel/CMakeFiles/xilinx-kernel.dir/DependInfo.cmake"
+  "libethash-xcl/kernel/CMakeFiles/ethash-xcl-kernel.dir/DependInfo.cmake"
   "libapicore/CMakeFiles/apicore.dir/DependInfo.cmake"
   "ethminer/CMakeFiles/ethminer.dir/DependInfo.cmake"
   )

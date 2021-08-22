@@ -1,37 +1,0 @@
-2021-06-08T07:49:16.109800255-07:49:16 **** Incremental Build of configuration Hardware for project ethminer_kernels ****
-000-make -j24 all 
-000-/tools/Xilinx/Vitis/2020.2/bin/v++ --target hw --compile -I"../src" --config generate_dag-compile.cfg -o"build/generate_dag.xo" "../src/ethminer_kernel.cpp"
-000-Option Map File Used: '/tools/Xilinx/Vitis/2020.2/data/vitis/vpp/optMap.xml'
-000-
-000-****** v++ v2020.2 (64-bit)
-000-  **** SW Build (by xbuild) on 2020-11-18-05:13:29
-000-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-000-
-000-INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
-000-	Reports: /home/draiget/workspace-test/ethminer_kernels/Hardware/build/reports/generate_dag
-000-	Log files: /home/draiget/workspace-test/ethminer_kernels/Hardware/build/logs/generate_dag
-000-Running Dispatch Server on port:38775
-000-INFO: [v++ 60-1548] Creating build summary session with primary output /home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag.xo.compile_summary, at Tue Jun  8 07:49:29 2021
-000-INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Jun  8 07:49:29 2021
-000-INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
-000-INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
-000-INFO: [v++ 74-74] Compiler Version string: 2020.2
-000-INFO: [v++ 60-585] Compiling for hardware target
-000-INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
-000-INFO: [v++ 60-242] Creating kernel: 'generate_dag'
-000-
-000-===>The following messages were generated while  performing high-level synthesis for kernel: generate_dag Log file: /home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log :
-000/ethminer_kernels/Hardware0-1-1v++ 207-3796: unknown type name 'uint2': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:19:52-ERROR: [v++ 207-3796] unknown type name 'uint2': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:19:5
-000/ethminer_kernels/Hardware0-1-1v++ 207-3796: unknown type name 'uint4': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:20:52-ERROR: [v++ 207-3796] unknown type name 'uint4': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:20:5
-000/ethminer_kernels/Hardware0-1-1v++ 207-1181: expected ',' or '>' in template-parameter-list: /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:23:152-ERROR: [v++ 207-1181] expected ',' or '>' in template-parameter-list: /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:23:15
-000/ethminer_kernels/Hardware0-1-1v++ 60-300: Failed to build kernel(ip) generate_dag, see log for details: /home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log2-ERROR: [v++ 60-300] Failed to build kernel(ip) generate_dag, see log for details: /home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log
-000/ethminer_kernels/Hardware0-1-1v++ 60-773] In '/home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3796: unknown type name 'uint2': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:19:52-ERROR: [v++ 60-773] In '/home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3796] unknown type name 'uint2': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:19:5
-000/ethminer_kernels/Hardware0-1-1v++ 60-773] In '/home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3796: unknown type name 'uint4': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:20:52-ERROR: [v++ 60-773] In '/home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3796] unknown type name 'uint4': /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:20:5
-000/ethminer_kernels/Hardware0-1-1v++ 60-773] In '/home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-1181: expected ',' or '>' in template-parameter-list: /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:23:152-ERROR: [v++ 60-773] In '/home/draiget/workspace-test/ethminer_kernels/Hardware/build/generate_dag/generate_dag/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-1181] expected ',' or '>' in template-parameter-list: /home/draiget/workspace-test/ethminer_kernels/src/ethminer_kernel.hpp:23:15
-000/ethminer_kernels/Hardware0-1-1v++ 60-599: Kernel compilation failed to complete2-ERROR: [v++ 60-599] Kernel compilation failed to complete
-000/ethminer_kernels/Hardware0-1-1v++ 60-592: Failed to finish compilation2-ERROR: [v++ 60-592] Failed to finish compilation
-000-INFO: [v++ 60-1653] Closing dispatch client.
-000/ethminer_kernels/Hardware0-1-1make: *** [makefile:58: build/generate_dag.xo] Error 12-make: *** [makefile:58: build/generate_dag.xo] Error 1
-00255-
-07:50:21 Build Finished (took 1m:5s.374ms)
-

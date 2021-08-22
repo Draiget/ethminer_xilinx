@@ -2,6 +2,9 @@
 set(SOURCES
 	XCLMiner.h XCLMiner.cpp
 	xcl/xcl2.cpp xcl/xcl2.hpp
+		kernel/src/ethminer_kernel.cpp
+		kernel/src/ethminer_kernel.hpp
+		kernel/src/dag_test.cpp
 )
 
 #if(USE_SYS_OPENCL)
@@ -35,3 +38,12 @@ target_link_libraries(ethash-xcl PRIVATE ${XILINX_XRT}/lib/libxrt_core.so)
 target_link_libraries(ethash-xcl PRIVATE ${XILINX_XRT}/lib/libxrt_coreutil.so)
 target_link_libraries(ethash-xcl PRIVATE ${XILINX_XRT}/lib/libxrt++.so)
 
+add_subdirectory(kernel)
+# FPGA --------------
+# Kernels compile:
+# make -j24 all
+# /tools/Xilinx/Vitis/2020.2/bin/v++ --target hw --compile -I"../src" --config generate_dag_test-compile.cfg -o"build/generate_dag_test.xo" "../src/ethminer_kernel.cpp"
+#
+# HW link:
+# make all
+#/ tools/Xilinx/Vitis/2020.2/bin/v++ --target hw --link --config binary_container_1-link.cfg -o"binary_container_1.xclbin" ../../ethminer_kernels/Hardware/build/generate_dag_test.xo

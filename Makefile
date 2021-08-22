@@ -270,17 +270,17 @@ ethash-xcl/fast:
 .PHONY : ethash-xcl/fast
 
 #=============================================================================
-# Target rules for targets named xilinx-kernel
+# Target rules for targets named ethash-xcl-kernel
 
 # Build rule for target.
-xilinx-kernel: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 xilinx-kernel
-.PHONY : xilinx-kernel
+ethash-xcl-kernel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ethash-xcl-kernel
+.PHONY : ethash-xcl-kernel
 
 # fast build rule for target.
-xilinx-kernel/fast:
-	$(MAKE) -f libethash-xcl/kernel/CMakeFiles/xilinx-kernel.dir/build.make libethash-xcl/kernel/CMakeFiles/xilinx-kernel.dir/build
-.PHONY : xilinx-kernel/fast
+ethash-xcl-kernel/fast:
+	$(MAKE) -f libethash-xcl/kernel/CMakeFiles/ethash-xcl-kernel.dir/build.make libethash-xcl/kernel/CMakeFiles/ethash-xcl-kernel.dir/build
+.PHONY : ethash-xcl-kernel/fast
 
 #=============================================================================
 # Target rules for targets named apicore
@@ -356,7 +356,7 @@ help:
 	@echo "... hwmon"
 	@echo "... poolprotocols"
 	@echo "... ethash-xcl"
-	@echo "... xilinx-kernel"
+	@echo "... ethash-xcl-kernel"
 	@echo "... apicore"
 	@echo "... ethminer"
 	@echo "... ethminer/buildinfo.o"

@@ -41,12 +41,15 @@ namespace dev
             cl::Device m_device;
 
             vector<cl::Buffer> m_dag;
+            vector<void*> m_dagRawBuffers;
+            vector<cl::Memory> m_generateDagBuffer;
             vector<cl::Buffer> m_light;
             vector<cl::Buffer> m_header;
             vector<cl::Buffer> m_searchBuffer;
 
             void clear_buffer() {
                 m_dag.clear();
+                m_generateDagBuffer.clear();
                 m_light.clear();
                 m_header.clear();
                 m_searchBuffer.clear();

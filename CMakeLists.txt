@@ -118,7 +118,7 @@ add_subdirectory(libpoolprotocols)
 
 if (ETHASHXCL)
     add_subdirectory(libethash-xcl)
-    add_subdirectory(libethash-xcl/kernel)
+    # add_subdirectory(libethash-xcl/kernel)
     add_definitions(-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3)
     add_definitions(-D__USE_XOPEN2K8=1)
 endif ()

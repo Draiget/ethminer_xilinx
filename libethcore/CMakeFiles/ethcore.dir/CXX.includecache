@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/ethminer_xilinx/libethcore/EthashAux.cpp
-EthashAux.h
-/ethminer_xilinx/libethcore/EthashAux.h
-ethash/ethash.hpp
--
-
-/ethminer_xilinx/libethcore/EthashAux.h
-libdevcore/Common.h
--
-libdevcore/Exceptions.h
--
-libdevcore/Worker.h
--
-ethash/ethash.hpp
--
-
 /ethminer_xilinx/libethcore/Farm.cpp
 libethcore/Farm.h
 -
@@ -32,32 +16,6 @@ libethash-cl/CLMiner.h
 libethash-cuda/CUDAMiner.h
 -
 libethash-cpu/CPUMiner.h
--
-
-/ethminer_xilinx/libethcore/Miner.cpp
-Miner.h
-/ethminer_xilinx/libethcore/Miner.h
-
-/ethminer_xilinx/libethcore/Miner.h
-bitset
--
-list
--
-numeric
--
-string
--
-EthashAux.h
-/ethminer_xilinx/libethcore/EthashAux.h
-libdevcore/Common.h
--
-libdevcore/Log.h
--
-libdevcore/Worker.h
--
-boost/format.hpp
--
-boost/thread.hpp
 -
 
 /root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include/boost/algorithm/string.hpp
