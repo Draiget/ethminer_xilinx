@@ -80,3 +80,5 @@ _3rdParty/
 
 # Some other stuff
 github_builds/
+
+CMakeFiles/

@@ -3,9 +3,12 @@
 #)
 
 set(SOURCES
-        src/ethminer_kernel.cpp
-        src/ethminer_kernel.hpp
-        src/dag_test.cpp
+        src/ethminer_kernel_dag.cpp
+        src/ethminer_kernel_dag.hpp
+        src/ethminer_kernel_search.hpp
+        src/ethminer_kernel_search.cpp
+        src/ethminer_definitions.h
+        src/ethminer_hashing.cpp
         )
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})

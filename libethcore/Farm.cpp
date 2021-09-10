@@ -286,7 +286,7 @@ bool Farm::start()
             if (it->second.subscriptionType == DeviceSubscriptionTypeEnum::Xilinx) {
                 minerTelemetry.prefix = "xcl";
                 m_miners.push_back(std::shared_ptr<Miner>(
-                        new XCLMiner(m_miners.size(), m_CLSettings, it->second)));
+                        new XCLMiner(m_miners.size(), m_XCLSettings, it->second)));
             }
 #endif
 #if ETH_ETHASHCPU

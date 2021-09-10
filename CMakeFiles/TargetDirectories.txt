@@ -62,6 +62,15 @@
 /ethminer_xilinx/libethash-xcl/kernel/CMakeFiles/rebuild_cache.dir
 /ethminer_xilinx/libethash-xcl/kernel/CMakeFiles/package.dir
 /ethminer_xilinx/libethash-xcl/kernel/CMakeFiles/ethash-xcl-kernel.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/install/strip.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/install/local.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/edit_cache.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/package_source.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/install.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/list_install_components.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/rebuild_cache.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/package.dir
+/ethminer_xilinx/libethash-cuda/CMakeFiles/ethash-cuda.dir
 /ethminer_xilinx/libapicore/CMakeFiles/install/strip.dir
 /ethminer_xilinx/libapicore/CMakeFiles/install/local.dir
 /ethminer_xilinx/libapicore/CMakeFiles/package_source.dir

@@ -37,7 +37,7 @@ __global__ void ethash_search(volatile Search_results* g_output, uint64_t start_
 }
 
 void run_ethash_search(uint32_t gridSize, uint32_t blockSize, cudaStream_t stream,
-    volatile Search_results* g_output, uint64_t start_nonce)
+                       volatile Search_results* g_output, uint64_t start_nonce)
 {
     ethash_search<<<gridSize, blockSize, 0, stream>>>(g_output, start_nonce);
     CUDA_SAFE_CALL(cudaGetLastError());
@@ -53,8 +53,8 @@ __global__ void ethash_calculate_dag_item(uint32_t start)
     if (((node_index >> 1) & (~1)) >= d_dag_size)
         return;
     union {
-       hash128_t dag_node;
-       uint2 dag_node_mem[25];
+        hash128_t dag_node;
+        uint2 dag_node_mem[25];
     };
     copy(dag_node.uint4s, d_light[node_index % d_light_size].uint4s, 4);
     dag_node.words[0] ^= node_index;
@@ -86,7 +86,7 @@ __global__ void ethash_calculate_dag_item(uint32_t start)
 }
 
 void ethash_generate_dag(
-    uint64_t dag_size, uint32_t gridSize, uint32_t blockSize, cudaStream_t stream)
+        uint64_t dag_size, uint32_t gridSize, uint32_t blockSize, cudaStream_t stream)
 {
     const uint32_t work = (uint32_t)(dag_size / sizeof(hash64_t));
     const uint32_t run = gridSize * blockSize;

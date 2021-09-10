@@ -2,9 +2,12 @@
 set(SOURCES
 	XCLMiner.h XCLMiner.cpp
 	xcl/xcl2.cpp xcl/xcl2.hpp
-		kernel/src/ethminer_kernel.cpp
-		kernel/src/ethminer_kernel.hpp
-		kernel/src/dag_test.cpp
+        kernel/src/ethminer_kernel_dag.cpp
+        kernel/src/ethminer_kernel_dag.hpp
+        kernel/src/ethminer_kernel_search.hpp
+        kernel/src/ethminer_kernel_search.cpp
+		kernel/src/ethminer_definitions.h
+		kernel/src/ethminer_hashing.cpp
 )
 
 #if(USE_SYS_OPENCL)

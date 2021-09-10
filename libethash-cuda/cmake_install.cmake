@@ -1,4 +1,4 @@
-# Install script for directory: /ethminer_xilinx
+# Install script for directory: /ethminer_xilinx/libethash-cuda
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,26 +37,3 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/ethminer_xilinx/libdevcore/cmake_install.cmake")
-  include("/ethminer_xilinx/libethcore/cmake_install.cmake")
-  include("/ethminer_xilinx/libhwmon/cmake_install.cmake")
-  include("/ethminer_xilinx/libpoolprotocols/cmake_install.cmake")
-  include("/ethminer_xilinx/libethash-xcl/cmake_install.cmake")
-  include("/ethminer_xilinx/libethash-cuda/cmake_install.cmake")
-  include("/ethminer_xilinx/libapicore/cmake_install.cmake")
-  include("/ethminer_xilinx/ethminer/cmake_install.cmake")
-
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/ethminer_xilinx/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

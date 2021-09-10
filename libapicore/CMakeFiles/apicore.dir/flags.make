@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -std=c++0x -Wall -Wno-unknown-pragmas -Wextra -Wno-error=parentheses -pedantic -g   -ffunction-sections -fdata-sections -std=c++11
 
-CXX_DEFINES = -DAPI_CORE -DDEV_BUILD -DETH_ETHASHXCL -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8=1
+CXX_DEFINES = -DAPI_CORE -DDEV_BUILD -DETH_ETHASHCUDA -DETH_ETHASHXCL -DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3 -D__USE_XOPEN2K8=1
 
-CXX_INCLUDES = -I/ethminer_xilinx/libapicore/.. -I/ethminer_xilinx -isystem /root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include 
+CXX_INCLUDES = -I/ethminer_xilinx/libapicore/.. -I/ethminer_xilinx -isystem /root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include 
 

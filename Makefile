@@ -283,6 +283,19 @@ ethash-xcl-kernel/fast:
 .PHONY : ethash-xcl-kernel/fast
 
 #=============================================================================
+# Target rules for targets named ethash-cuda
+
+# Build rule for target.
+ethash-cuda: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ethash-cuda
+.PHONY : ethash-cuda
+
+# fast build rule for target.
+ethash-cuda/fast:
+	$(MAKE) -f libethash-cuda/CMakeFiles/ethash-cuda.dir/build.make libethash-cuda/CMakeFiles/ethash-cuda.dir/build
+.PHONY : ethash-cuda/fast
+
+#=============================================================================
 # Target rules for targets named apicore
 
 # Build rule for target.
@@ -357,6 +370,7 @@ help:
 	@echo "... poolprotocols"
 	@echo "... ethash-xcl"
 	@echo "... ethash-xcl-kernel"
+	@echo "... ethash-cuda"
 	@echo "... apicore"
 	@echo "... ethminer"
 	@echo "... ethminer/buildinfo.o"

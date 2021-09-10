@@ -5,96 +5,96 @@
 		<Option title="ethminer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\cable\;CMake Files\cmake\cable\defaults\;CMake Files\cmake\cable\toolchains\;CMake Files\cmake\cable\buildinfo\;CMake Files\cmake\Hunter\;CMake Files\..\;CMake Files\..\root\;CMake Files\..\root\.hunter\;CMake Files\..\root\.hunter\_Base\;CMake Files\..\root\.hunter\_Base\Download\;CMake Files\..\root\.hunter\_Base\Download\Hunter\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\modules\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\configs\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\system\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\thread\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\jsoncpp\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\ethash\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\OpenSSL\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\CLI11\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\find\;CMake Files\..\root\.hunter\_Base\cae9026\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\Boost\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\jsoncpp\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\ethash\;CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\CLI11\;CMake Files\_3rdParty\;CMake Files\_3rdParty\Hunter\;CMake Files\_3rdParty\Hunter\config-id\;CMake Files\libdevcore\;CMake Files\libethcore\;CMake Files\libhwmon\;CMake Files\libpoolprotocols\;CMake Files\libethash-xcl\;CMake Files\libethash-xcl\kernel\;CMake Files\libapicore\;CMake Files\ethminer\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\cable\;CMake Files\cmake\cable\defaults\;CMake Files\cmake\cable\toolchains\;CMake Files\cmake\cable\buildinfo\;CMake Files\cmake\Hunter\;CMake Files\..\;CMake Files\..\root\;CMake Files\..\root\.hunter\;CMake Files\..\root\.hunter\_Base\;CMake Files\..\root\.hunter\_Base\Download\;CMake Files\..\root\.hunter\_Base\Download\Hunter\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\modules\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\configs\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\system\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\filesystem\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\Boost\thread\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\jsoncpp\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\ethash\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\OpenSSL\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\projects\CLI11\;CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\find\;CMake Files\..\root\.hunter\_Base\cae9026\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\Boost\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\jsoncpp\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\ethash\;CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\CLI11\;CMake Files\_3rdParty\;CMake Files\_3rdParty\Hunter\;CMake Files\_3rdParty\Hunter\config-id\;CMake Files\libdevcore\;CMake Files\libethcore\;CMake Files\libhwmon\;CMake Files\libpoolprotocols\;CMake Files\libethash-xcl\;CMake Files\libethash-xcl\kernel\;CMake Files\libethash-cuda\;CMake Files\libapicore\;CMake Files\ethminer\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package_source">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 package_source"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 package"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethminer-buildinfo">
@@ -105,17 +105,25 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
 					<Add option="-D__USE_XOPEN2K8=1"/>
 					<Add directory="/ethminer_xilinx"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 ethminer-buildinfo"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 ethminer-buildinfo"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethminer-buildinfo/fast">
@@ -126,27 +134,35 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
 					<Add option="-D__USE_XOPEN2K8=1"/>
 					<Add directory="/ethminer_xilinx"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 ethminer-buildinfo/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 ethminer-buildinfo/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethminer-buildinfo-git">
 				<Option working_dir="/ethminer_xilinx"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 ethminer-buildinfo-git"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 ethminer-buildinfo-git"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="devcore">
@@ -157,15 +173,23 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 devcore"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 devcore"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="devcore/fast">
@@ -176,15 +200,23 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 devcore/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 devcore/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libdevcore/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethcore">
@@ -195,16 +227,24 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libethcore/.."/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 ethcore"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 ethcore"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethcore/fast">
@@ -215,16 +255,24 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libethcore/.."/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 ethcore/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 ethcore/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethcore/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hwmon">
@@ -235,16 +283,24 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libhwmon/.."/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 hwmon"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 hwmon"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hwmon/fast">
@@ -255,16 +311,24 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libhwmon/.."/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 hwmon/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 hwmon/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libhwmon/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="poolprotocols">
@@ -275,17 +339,25 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libpoolprotocols/.."/>
 					<Add directory="/ethminer_xilinx"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 poolprotocols"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 poolprotocols"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="poolprotocols/fast">
@@ -296,17 +368,25 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libpoolprotocols/.."/>
 					<Add directory="/ethminer_xilinx"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 poolprotocols/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 poolprotocols/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libpoolprotocols/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethash-xcl">
@@ -317,19 +397,27 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl/.."/>
 					<Add directory="/opt/xilinx/xrt/include"/>
 					<Add directory="/tools/Xilinx/Vivado/2020.2/include"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 ethash-xcl"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 ethash-xcl"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethash-xcl/fast">
@@ -340,19 +428,27 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl/.."/>
 					<Add directory="/opt/xilinx/xrt/include"/>
 					<Add directory="/tools/Xilinx/Vivado/2020.2/include"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 ethash-xcl/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 ethash-xcl/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethash-xcl-kernel">
@@ -363,6 +459,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl"/>
@@ -371,13 +468,20 @@
 					<Add directory="/tools/Xilinx/Vivado/2020.2/include"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl/kernel"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl/kernel/.."/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 ethash-xcl-kernel"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 ethash-xcl-kernel"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethash-xcl-kernel/fast">
@@ -388,6 +492,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl"/>
@@ -396,13 +501,82 @@
 					<Add directory="/tools/Xilinx/Vivado/2020.2/include"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl/kernel"/>
 					<Add directory="/ethminer_xilinx/libethash-xcl/kernel/.."/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 ethash-xcl-kernel/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 ethash-xcl-kernel/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-xcl/kernel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ethash-cuda">
+				<Option output="/ethminer_xilinx/libethash-cuda/libethash-cuda.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/ethminer_xilinx/libethash-cuda"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
+					<Add option="-DAPI_CORE"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
+					<Add option="-D__USE_XOPEN2K8=1"/>
+					<Add directory="/ethminer_xilinx/libethash-cuda/.."/>
+					<Add directory="/ethminer_xilinx/libethash-cuda"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 ethash-cuda"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ethash-cuda/fast">
+				<Option output="/ethminer_xilinx/libethash-cuda/libethash-cuda.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/ethminer_xilinx/libethash-cuda"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
+					<Add option="-DAPI_CORE"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
+					<Add option="-D__USE_XOPEN2K8=1"/>
+					<Add directory="/ethminer_xilinx/libethash-cuda/.."/>
+					<Add directory="/ethminer_xilinx/libethash-cuda"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 ethash-cuda/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libethash-cuda/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="apicore">
@@ -413,19 +587,27 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
 					<Add option="-D__USE_XOPEN2K8=1"/>
 					<Add directory="/ethminer_xilinx/libapicore/.."/>
 					<Add directory="/ethminer_xilinx"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 apicore"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 apicore"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="apicore/fast">
@@ -436,19 +618,27 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
 					<Add option="-D__USE_XOPEN2K8=1"/>
 					<Add directory="/ethminer_xilinx/libapicore/.."/>
 					<Add directory="/ethminer_xilinx"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 apicore/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 apicore/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/libapicore/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethminer">
@@ -459,19 +649,27 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
 					<Add option="-D__USE_XOPEN2K8=1"/>
 					<Add directory="/ethminer_xilinx/ethminer/.."/>
 					<Add directory="/ethminer_xilinx"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 ethminer"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 ethminer"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ethminer/fast">
@@ -482,19 +680,27 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DETH_ETHASHXCL"/>
+					<Add option="-DETH_ETHASHCUDA"/>
 					<Add option="-DAPI_CORE"/>
 					<Add option="-DDEV_BUILD"/>
 					<Add option="-DVITIS_PLATFORM=xilinx_u50_gen3x16_xdma_201920_3"/>
 					<Add option="-D__USE_XOPEN2K8=1"/>
 					<Add directory="/ethminer_xilinx/ethminer/.."/>
 					<Add directory="/ethminer_xilinx"/>
-					<Add directory="/root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include"/>
+					<Add directory="/root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 ethminer/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 ethminer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j24 -f &quot;/ethminer_xilinx/ethminer/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -560,21 +766,63 @@
 		<Unit filename="/ethminer_xilinx/libdevcore/vector_ref.h">
 			<Option target="devcore"/>
 		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/CMakeFiles/ethash-cuda.dir/ethash-cuda_generated_ethash_cuda_miner_kernel.cu.o">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/CUDAMiner.cpp">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/CUDAMiner.h">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/cuda_helper.h">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/dagger_shuffled.cuh">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/ethash_cuda_miner_kernel.cu">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/ethash_cuda_miner_kernel.h">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/ethash_cuda_miner_kernel_globals.h">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/fnv.cuh">
+			<Option target="ethash-cuda"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/keccak.cuh">
+			<Option target="ethash-cuda"/>
+		</Unit>
 		<Unit filename="/ethminer_xilinx/libethash-xcl/XCLMiner.cpp">
 			<Option target="ethash-xcl"/>
 		</Unit>
 		<Unit filename="/ethminer_xilinx/libethash-xcl/XCLMiner.h">
 			<Option target="ethash-xcl"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/dag_test.cpp">
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_definitions.h">
 			<Option target="ethash-xcl"/>
 			<Option target="ethash-xcl-kernel"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel.cpp">
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_hashing.cpp">
 			<Option target="ethash-xcl"/>
 			<Option target="ethash-xcl-kernel"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel.hpp">
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel_dag.cpp">
+			<Option target="ethash-xcl"/>
+			<Option target="ethash-xcl-kernel"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel_dag.hpp">
+			<Option target="ethash-xcl"/>
+			<Option target="ethash-xcl-kernel"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel_search.cpp">
+			<Option target="ethash-xcl"/>
+			<Option target="ethash-xcl-kernel"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/src/ethminer_kernel_search.hpp">
 			<Option target="ethash-xcl"/>
 			<Option target="ethash-xcl-kernel"/>
 		</Unit>
@@ -968,38 +1216,38 @@
 		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/Download/Hunter/0.23.304/cae9026/Unpacked/cmake/find/FindOpenSSL.cmake">
 			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\Download\Hunter\0.23.304\cae9026\Unpacked\cmake\find\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/config.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/config.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/Boost/BoostConfig.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\Boost\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/Boost/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\Boost\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/Boost/BoostConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\Boost\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/Boost/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\Boost\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/jsoncpp/jsoncppConfig-release.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\jsoncpp\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/jsoncpp/jsoncppConfig-release.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\jsoncpp\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/jsoncpp/jsoncppConfig.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\jsoncpp\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/jsoncpp/jsoncppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\jsoncpp\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/ethash/ethashConfig.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\ethash\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/ethash/ethashConfig.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\ethash\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/ethash/ethashConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\ethash\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/ethash/ethashConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\ethash\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/ethash/ethashTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\ethash\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/ethash/ethashTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\ethash\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/ethash/ethashTargets.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\ethash\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/ethash/ethashTargets.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\ethash\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/CLI11/CLI11Config.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\CLI11\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/CLI11/CLI11Config.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\CLI11\"/>
 		</Unit>
-		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/41987cf/b999cee/Install/lib/cmake/CLI11/CLI11ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\41987cf\b999cee\Install\lib\cmake\CLI11\"/>
+		<Unit filename="/ethminer_xilinx/../root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/lib/cmake/CLI11/CLI11ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\root\.hunter\_Base\cae9026\51efd6e\b999cee\Install\lib\cmake\CLI11\"/>
 		</Unit>
 		<Unit filename="/ethminer_xilinx/_3rdParty/Hunter/config-id/config.cmake.NOLF">
 			<Option virtualFolder="CMake Files\_3rdParty\Hunter\config-id\"/>
@@ -1021,6 +1269,9 @@
 		</Unit>
 		<Unit filename="/ethminer_xilinx/libethash-xcl/kernel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libethash-xcl\kernel\"/>
+		</Unit>
+		<Unit filename="/ethminer_xilinx/libethash-cuda/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libethash-cuda\"/>
 		</Unit>
 		<Unit filename="/ethminer_xilinx/libapicore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\libapicore\"/>

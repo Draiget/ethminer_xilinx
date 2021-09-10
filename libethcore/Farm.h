@@ -275,6 +275,7 @@ private:
     FarmSettings m_Settings;  // Own Farm Settings
     CUSettings m_CUSettings;  // Cuda settings passed to CUDA Miner instantiator
     CLSettings m_CLSettings;  // OpenCL settings passed to CL Miner instantiator
+    XCLSettings m_XCLSettings;  // OpenCL settings passed to CL Miner instantiator
     CPSettings m_CPSettings;  // CPU settings passed to CPU Miner instantiator
 
     boost::asio::io_service::strand m_io_strand;

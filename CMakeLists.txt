@@ -34,13 +34,15 @@ cable_set_build_type(DEFAULT Release CONFIGURATION_TYPES Release RelWithDebInfo)
 
 option(ETHASHXCL "Build with Xilinx OpenCL mining" ON)
 option(ETHASHCL "Build with OpenCL mining" OFF)
-option(ETHASHCUDA "Build with CUDA mining" OFF)
+option(ETHASHCUDA "Build with CUDA mining" ON)
 option(ETHASHCPU "Build with CPU mining (only for development)" OFF)
 option(ETHDBUS "Build with D-Bus support" OFF)
 option(APICORE "Build with API Server support" ON)
 option(BINKERN "Install AMD binary kernels" OFF)
 option(DEVBUILD "Log developer metrics" ON)
 option(USE_SYS_OPENCL "Build with system OpenCL" OFF)
+
+# add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
 
 # propagates CMake configuration options to the compiler
 function(configureProject)

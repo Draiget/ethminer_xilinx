@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  -std=c++0x -Wall -Wno-unknown-pragmas -Wextra -Wno-error=parentheses -pedantic -g   -ffunction-sections -fdata-sections -std=c++11
 
-CXX_DEFINES = -DAPI_CORE -DDEV_BUILD -DETH_ETHASHXCL
+CXX_DEFINES = -DAPI_CORE -DDEV_BUILD -DETH_ETHASHCUDA -DETH_ETHASHXCL
 
-CXX_INCLUDES = -I/ethminer_xilinx/libethcore/.. -isystem /root/.hunter/_Base/cae9026/41987cf/b999cee/Install/include 
+CXX_INCLUDES = -I/ethminer_xilinx/libethcore/.. -isystem /root/.hunter/_Base/cae9026/51efd6e/b999cee/Install/include 
 

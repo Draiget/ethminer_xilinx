@@ -119,6 +119,13 @@ struct CLSettings : public MinerSettings
 #endif
 };
 
+// Holds settings for Xilinx FPGA Miner
+struct XCLSettings : public MinerSettings
+{
+    uint32_t search_streams = 1;
+    uint32_t search_lookup_size = 8192 * 128;
+};
+
 // Holds settings for CPU Miner
 struct CPSettings : public MinerSettings
 {

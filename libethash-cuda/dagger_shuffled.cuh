@@ -37,7 +37,7 @@ DEV_INLINE bool compute_hash(uint64_t nonce, uint2* mix_hash)
             switch (mix_idx)
             {
             case 0:
-                mix[p] = vectorize2(shuffle[0], shuffle[1]);
+                mix[p] = vectorize2(shuffle[0], shuffle[1]); // stores like { x, y, z, w } -> 128 bytes (32, 32, 32, 32)
                 break;
             case 1:
                 mix[p] = vectorize2(shuffle[2], shuffle[3]);
@@ -94,8 +94,11 @@ DEV_INLINE bool compute_hash(uint64_t nonce, uint2* mix_hash)
     }
 
     // keccak_256(keccak_512(header..nonce) .. mix);
-    if (cuda_swab64(keccak_f1600_final(state)) > d_target)
+    auto keccak_res = keccak_f1600_final(state);
+    printf("keccak_res: %lu, d_target: %lu, swab64: %lu\n", keccak_res, d_target, cuda_swab64(keccak_res));
+    if (cuda_swab64(keccak_res) > d_target)
         return true;
+
 
     mix_hash[0] = state[8];
     mix_hash[1] = state[9];
